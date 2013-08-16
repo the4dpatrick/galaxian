@@ -1,0 +1,23 @@
+body {
+	background: url('imgs/bg.png');
+}
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	border: 20px solid white;
+	border-radius: 15px;
+	box-shadow: 1px 3px 38px -13px black;
+}
+#background {
+	z-index: -2;
+}
+#main {
+	z-index: -1;
+}
+#ship {
+	z-index: 0;
+}
