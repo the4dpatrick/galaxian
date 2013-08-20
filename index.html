@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 	<body>
+
 		<canvas id="background" width="600" height="360">
 			Your browser does not support canvas. Please try again with a different browser.
 		</canvas>
@@ -12,6 +13,21 @@
 		</canvas>
 		<canvas id="spider" width="600" height="360">
 		</canvas>
-		<script src="space_shooter.js"></script>
+			<div class="score">
+				<span id="score"></span>
+			</div>
+			<div class="game-over" id="game-over">
+				GAME OVER
+				<p>
+					<span onclick="game.restart()">
+						Restart
+					</span>
+				</p>
+			</div>
+			<div class="loading" id="loading">
+				LOADING...
+				<p>Please Wait</p>
+			</div>
+		<script src="untitled.js"></script>
 	</body>
 </html>

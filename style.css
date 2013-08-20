@@ -21,3 +21,45 @@ canvas {
 #ship {
 	z-index: 0;
 }
+
+.score {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -156px;
+	margin-right: -262px;
+	color: #FF7F00;
+	font-family: Helvetica, sans-serif;
+	cursor: default;
+}
+.game-over {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -88px;
+	color: #FF7F00;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	cursor: default;
+	display: none;
+	text-align: center;
+}
+.game-ver span {
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+	left: 50px;
+}
+.game-over span:hover {
+	color: #FFD700;
+}
+#loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	margin-top: -32px;
+	margin-left: -42px;
+	text-align: center;
+}
